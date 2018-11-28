@@ -17,4 +17,8 @@ func main() {
 	s := fmt.Sprintf("%#x\t%b\n", x, x)
 	fmt.Println(s)
 
+	// Print value
+	p := fmt.Sprintf("%v\n", x)
+	fmt.Println(p)
+
 }
