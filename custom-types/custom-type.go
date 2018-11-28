@@ -23,5 +23,8 @@ func main() {
 	// This will give error as TYPE apple cannot be assigned to TYPE int
 	// for assignments both have to be have same types
 	// x = y --> Error
-
+	// conversion
+	x = int(y)
+	fmt.Println(x)
+	fmt.Printf("Type: %T\n", x)
 }
