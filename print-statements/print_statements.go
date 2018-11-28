@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(e)
 
 	foo()
-	foo_1()
+	foo1()
 }
 
 func foo() {
@@ -18,7 +18,7 @@ func foo() {
 	fmt.Println(res)
 }
 
-func foo_1() {
+func foo1() {
 	// This will give error as we had declared "e" but not used
 	res, e := fmt.Println("I am in Foo 1")
 	fmt.Println(res)
