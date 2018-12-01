@@ -4,13 +4,14 @@ import (
 	"fmt"
 )
 
-const a = 30
-const b = 30.3445
-const c = "Hello World"
-
-const d int8 = 40
-const e float32 = 40.44
-const f string = "Hey"
+const (
+	a         = 30
+	b         = 30.3445
+	c         = "Hello World"
+	d int8    = 40
+	e float32 = 40.44
+	f string  = "Hey"
+)
 
 func main() {
 	fmt.Println("un typed constants - compiler decides the type")
