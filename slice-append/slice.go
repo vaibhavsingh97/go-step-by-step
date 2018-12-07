@@ -14,4 +14,7 @@ func main() {
 	// if "..." after the element than it will expand all the elements
 	x = append(x, y...)
 	fmt.Println(x)
+
+	x = append(x[:2], x[4:]...) // delete 3,5 from slice
+	fmt.Println(x)
 }
